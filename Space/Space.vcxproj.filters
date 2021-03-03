@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{7b65bbed-6e83-4cc8-9c4f-961050cae57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Node">
+      <UniqueIdentifier>{43ab373c-a976-457f-bcee-bbfc43eb3693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{bff92479-aded-4bbb-a31f-bec299500907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{f17fe9b6-b58a-4c2f-be29-96586991514b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Mgrs">
+      <UniqueIdentifier>{681cfe65-040d-4645-9abe-f2d0fa37c46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{f60928ff-4038-4b6c-9b3f-de8e54cce740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Core">
+      <UniqueIdentifier>{94381774-e408-4df3-a1f3-2ae46f6c1ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Scene">
+      <UniqueIdentifier>{6a0b488c-024d-464b-b7e5-e43bc432ea1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Block">
+      <UniqueIdentifier>{6bea0665-5f2f-4554-bab6-e565b42912a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Danger">
+      <UniqueIdentifier>{4b5af6a2-796a-4aba-a89d-d2a1804be18d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Attack">
+      <UniqueIdentifier>{0ac5a0e5-9d85-4648-8528-4cff3a2db4b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Player">
+      <UniqueIdentifier>{ff95377a-3b59-4073-998b-66cbb4531b92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Space.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>FrameWork\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>FrameWork\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>FrameWork\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMgr.cpp">
+      <Filter>FrameWork\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneDirector.cpp">
+      <Filter>FrameWork\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>FrameWork\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>FrameWork\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>FrameWork\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>FrameWork\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>FrameWork\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>FrameWork\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>Game\Mgrs</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMgr.cpp">
+      <Filter>Game\Mgrs</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMgr.cpp">
+      <Filter>Game\Mgrs</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>Game\Mgrs</Filter>
+    </ClCompile>
+    <ClCompile Include="TextMgr.cpp">
+      <Filter>Game\Mgrs</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Game\Object\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Game\Object\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Game\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Danger.cpp">
+      <Filter>Game\Object\Danger</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Game\Object\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreMgr.cpp">
+      <Filter>Game\Mgrs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>FrameWork\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>FrameWork\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>FrameWork\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>FrameWork\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMgr.h">
+      <Filter>FrameWork\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneDirector.h">
+      <Filter>FrameWork\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>FrameWork\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>FrameWork\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>FrameWork\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>FrameWork\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>FrameWork\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>FrameWork\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>Game\Mgrs</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMgr.h">
+      <Filter>Game\Mgrs</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMgr.h">
+      <Filter>Game\Mgrs</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>Game\Mgrs</Filter>
+    </ClInclude>
+    <ClInclude Include="TextMgr.h">
+      <Filter>Game\Mgrs</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Game\Object\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Game\Object\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Game\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Danger.h">
+      <Filter>Game\Object\Danger</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Game\Object\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreMgr.h">
+      <Filter>Game\Mgrs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

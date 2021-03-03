@@ -1,0 +1,52 @@
+﻿  stdafx.cpp
+  Animation.cpp
+C:\Users\user\Desktop\Avoid\Avoid\Space\Animation.cpp(76,66): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Animation.cpp(76,27): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Animation.cpp(75,97): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Animation.cpp(75,58): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Animation.cpp(83,46): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Animation.cpp(83,17): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Animation.cpp(82,67): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Animation.cpp(82,38): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  App.cpp
+C:\Users\user\Desktop\Avoid\Avoid\Space\App.cpp(29,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\App.cpp(39,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Block.cpp
+  Camera.cpp
+  CollisionMgr.cpp
+  EffectMgr.cpp
+C:\Users\user\Desktop\Avoid\Avoid\Space\EffectMgr.cpp(8,15): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Attack.cpp
+  Danger.cpp
+  Input.cpp
+  MainScene.cpp
+C:\Users\user\Desktop\Avoid\Avoid\Space\MainScene.cpp(67,46): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Object.cpp
+  ObjectMgr.cpp
+  Player.cpp
+  Renderer.cpp
+  ResourceMgr.cpp
+  Scene.cpp
+  SceneDirector.cpp
+  ScoreMgr.cpp
+  SoundMgr.cpp
+  Space.cpp
+  컴파일하고 있습니다...
+  Sprite.cpp
+C:\Users\user\Desktop\Avoid\Avoid\Space\Sprite.cpp(55,66): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Sprite.cpp(55,27): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Sprite.cpp(54,97): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Sprite.cpp(54,58): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Sprite.cpp(62,46): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Sprite.cpp(62,17): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Sprite.cpp(61,67): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\Avoid\Avoid\Space\Sprite.cpp(61,38): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TextMgr.cpp
+  Texture.cpp
+  UI.cpp
+  코드를 생성하고 있습니다.
+  569 of 577 functions (98.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  Space.vcxproj -> C:\Users\user\Desktop\Avoid\Avoid\x64\Release\Space.exe
